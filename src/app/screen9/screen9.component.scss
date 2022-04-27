@@ -1,0 +1,130 @@
+.mobile-view {
+  font-family: "Jost", sans-serif !important;
+  overflow: hidden;
+}
+
+.row {
+  display: flex !important;
+  align-items: center;
+
+}
+
+
+.heading {
+  line-height: 1.4;
+}
+
+.mt-small {
+  margin-top: 1rem !important;
+}
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-3 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.ml-5 {
+  margin-left: 5rem !important;
+}
+
+.bold-500 {
+  font-weight: 500;
+}
+
+.fs-22 {
+  font-size: 22px !important;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+
+
+// new style
+
+.grey-card {
+  background: #F5F5F5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 100vw;
+  width: 85%;
+  margin: auto;
+
+}
+
+.card-group {
+  width: 122%;
+  /* height: 72vw; */
+  position: relative;
+  left: -10%;
+  top: 10%;
+}
+
+.line-height {
+  line-height: 1.4 !important;
+}
+
+
+.card-point {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000015;
+  border: 1px solid #F5F5F5;
+  opacity: 1;
+  margin: 10px;
+  font-weight: 500;
+
+  .icon {
+    margin: 5px;
+  }
+
+}
+
+.get-started {
+  box-shadow: 0px 3px 6px #0000006C;
+  border-radius: 28px;
+  opacity: 1;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: 20px;
+}
