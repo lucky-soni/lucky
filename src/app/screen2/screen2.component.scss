@@ -59,6 +59,13 @@
   width: 19px;
 }
 
+.col-33 {
+  width: 33.3% ;
+}
+
+.col-80 {
+  width: 80% ;
+}
 
 
 // flexx classes
@@ -90,6 +97,7 @@
   flex-direction: row;
   flex: 1 1 100%;
   box-sizing: border-box;
+  align-items: center;
 
 }
 
@@ -334,10 +342,11 @@ b {
   margin-top: 15px;
   margin-bottom: 15px;
 
-  p {
+  .txt {
     font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    text-align: left;
     color: #FFFFFF;
   }
 
@@ -366,7 +375,7 @@ b {
     #handphone {
       position: relative;
       bottom: -27px;
-      right: 18%;
+      right: 20%;
       height: 84%;
     }
   }
