@@ -17,7 +17,7 @@ export class Screen5Component implements OnInit {
       data: mode,
       maxWidth: '100vw',
       maxHeight: '100vh',
-      height: '48%',
+      height: '58%',
       width: '100%',
       panelClass: 'full-screen-modal-2',
     });

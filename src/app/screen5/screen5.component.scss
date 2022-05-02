@@ -147,8 +147,7 @@ mat-toolbar {
 }
 
 .pill {
-  background: #F1F2FF;
-  border: 1px solid #5C4CE1;
+  background: #ffffff;
   box-sizing: border-box;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 50px;
@@ -165,6 +164,14 @@ mat-toolbar {
   }
 }
 
+
+.active-pill {
+  background: #F1F2FF;
+  border: 1px solid #5C4CE1;
+}
+
+
+
 .share {
   width: 100% !important;
   background: linear-gradient(90deg, #7472ED 1.37%, #908BF2 48.85%, #C3B1F8 99.39%) !important;
@@ -173,12 +180,7 @@ mat-toolbar {
   padding: 5px;
 }
 
-.comment-section {
-  mat-form-field {
-    margin-top: 0.2rem;
-    width: 100%;
-  }
-}
+
 
 
 .timeline {
@@ -275,9 +277,15 @@ textarea {
   width: 98%;
   border-radius: 7px;
   margin-top: 0.2rem;
+  padding: 5px;
 }
 
 ::placeholder {
   color: rgba(0, 0, 0, 0.6) !important;
   font-family: "Jost", sans-serif !important;
+}
+
+
+.emoji-bg {
+  background-image: url('../../assets/Emojis\ 1.png');
 }
