@@ -7,6 +7,10 @@
 
 }
 
+button {
+  font-family: 'jost',sans-serif !important;
+}
+
 
 .store-section {
   padding: 5px;
@@ -19,6 +23,7 @@
   border-bottom: 1px solid #f6f6f6;
   font-weight: 500;
   font-size: 14px;
+  align-items: center !important;
 }
 
 .mat-tab-nav-bar, .mat-tab-header {
@@ -28,6 +33,11 @@ border-bottom: none !important;
 .mat-tab-links {
   display: flex !important;
   justify-content: space-around !important;
+  .link {
+    outline: none;
+    border: none;
+    background: white;
+  }
 }
 
 .mat-tab-link {
@@ -435,7 +445,7 @@ padding: 0;
     background-size: cover;
 
     width: 100%;
-    text-align: center;
+
     padding: 8px;
     color: #fff;
     font-weight: 600;
@@ -446,7 +456,9 @@ padding: 0;
   }
 
 
-
+.location-icon-desk {
+  z-index: 10 !important;
+}
 
   .footer {
     padding: 10px;
